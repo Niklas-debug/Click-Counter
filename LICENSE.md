@@ -16,6 +16,7 @@
     No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
 
 
+***All Details:***
 
 **Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)**
 
