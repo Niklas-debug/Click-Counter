@@ -43,7 +43,8 @@ namespace Click_Counter
             //this.lbl_link_open_source.LinkVisited = true; // If true, link text fades dark purple to show it has been clicked already
 
             // Navigate to a URL.
-            System.Diagnostics.Process.Start("http://www.microsoft.com");
+            System.Diagnostics.Process.Start("https://github.com/Niklas-debug/Click-Counter");
+            //System.Diagnostics.Process.Start(lbl_link_open_source.Text);
         }
     }
 }

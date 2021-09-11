@@ -37,7 +37,9 @@ namespace Click_Counter
             // 
             // btn_count
             // 
-            this.btn_count.Location = new System.Drawing.Point(334, 260);
+            this.btn_count.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btn_count.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btn_count.Location = new System.Drawing.Point(335, 234);
             this.btn_count.Name = "btn_count";
             this.btn_count.Size = new System.Drawing.Size(130, 50);
             this.btn_count.TabIndex = 0;
@@ -47,9 +49,10 @@ namespace Click_Counter
             // 
             // lbl_count_digit
             // 
+            this.lbl_count_digit.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_count_digit.Cursor = System.Windows.Forms.Cursors.Default;
             this.lbl_count_digit.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
-            this.lbl_count_digit.Location = new System.Drawing.Point(12, 200);
+            this.lbl_count_digit.Location = new System.Drawing.Point(12, 186);
             this.lbl_count_digit.Name = "lbl_count_digit";
             this.lbl_count_digit.Size = new System.Drawing.Size(776, 31);
             this.lbl_count_digit.TabIndex = 1;
@@ -59,15 +62,17 @@ namespace Click_Counter
             // 
             // lbl_link_open_source
             // 
+            this.lbl_link_open_source.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lbl_link_open_source.AutoSize = true;
             this.lbl_link_open_source.LinkArea = new System.Windows.Forms.LinkArea(44, 63);
-            this.lbl_link_open_source.Location = new System.Drawing.Point(398, 424);
+            this.lbl_link_open_source.Location = new System.Drawing.Point(324, 424);
             this.lbl_link_open_source.Name = "lbl_link_open_source";
-            this.lbl_link_open_source.Size = new System.Drawing.Size(390, 17);
+            this.lbl_link_open_source.Size = new System.Drawing.Size(464, 17);
             this.lbl_link_open_source.TabIndex = 2;
             this.lbl_link_open_source.TabStop = true;
-            this.lbl_link_open_source.Text = "This Program is Open-Source and avaible at: https://github.com/niklas-debug";
-            this.lbl_link_open_source.TextAlign = System.Drawing.ContentAlignment.BottomRight;
+            this.lbl_link_open_source.Text = "This Program is Open-Source and avaible at: https://github.com/Niklas-debug/Click" +
+    "-Counter";
+            this.lbl_link_open_source.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lbl_link_open_source.UseCompatibleTextRendering = true;
             this.lbl_link_open_source.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lbl_link_open_source_LinkClicked);
             // 
