@@ -26,16 +26,9 @@ namespace Click_Counter
         private void btn_count_Click(object sender, EventArgs e)
         {
 
-            if (lbl_count_digit.Text == "0")
-            {
-                counter_int = counter_int + 1;
-                lbl_count_digit.Text = counter_int.ToString();
-            } else
-            {
-                counter_int = counter_int + 1;
-                lbl_count_digit.Text = counter_int.ToString();
-            }
-            
+            counter_int = counter_int + 1;
+            lbl_count_digit.Text = counter_int.ToString();
+
         }
 
         private void lbl_link_open_source_LinkClicked(object sender, System.Windows.Forms.LinkLabelLinkClickedEventArgs e)

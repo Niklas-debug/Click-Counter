@@ -70,7 +70,8 @@ namespace Click_Counter
             this.lbl_link_open_source.Size = new System.Drawing.Size(464, 17);
             this.lbl_link_open_source.TabIndex = 2;
             this.lbl_link_open_source.TabStop = true;
-            this.lbl_link_open_source.Text = "This Program is Open-Source and avaible at: https://github.com/Niklas-debug/Click-Counter";
+            this.lbl_link_open_source.Text = "This Program is Open-Source and avaible at: https://github.com/Niklas-debug/Click" +
+    "-Counter";
             this.lbl_link_open_source.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lbl_link_open_source.UseCompatibleTextRendering = true;
             this.lbl_link_open_source.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lbl_link_open_source_LinkClicked);
@@ -86,8 +87,6 @@ namespace Click_Counter
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "ls_main";
             this.Text = "Lorenz Services - Clicker";
-            this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
